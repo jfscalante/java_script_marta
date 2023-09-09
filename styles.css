@@ -1,0 +1,26 @@
+*{
+    background-image: url(img/lazaña.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.titulo{
+    height: 30%;
+    text-align: center;
+
+
+}
+.titulo2{
+    text-align: center;
+}
+.botones{
+    background-color: azure;
+    border-radius: 1em;
+    transform: translateX(400px);
+    border: 1px solid ;
+}
+.botones:hover{
+    color: blue;
+    background-color: brown;
+    border: 3px solid ;
+}
