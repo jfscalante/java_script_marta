@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heladeria</title>
+</head>
+<body>
+   <script>
+		var helado = prompt("qué helado quieres quieres");
+		var precio = 0;
+	
+		if(helado=="oreo" ||helado== "OREO" || helado=="Oreo"){
+			precio = 1500 -1500*0.10  ;
+			document.write("este helado tiene descuento del 10%   ")
+		}else if(helado == "vainilla" || helado=="VAINILLA" || helado=="Vainilla"){
+			precio = 2000;
+		}else if(helado == "brownie" || helado=="BROWNIE" || helado=="Brownie"){
+			precio = 2500;
+		}else  if(helado == "fresa" || helado=="FRESA" || helado=="Fresa"){
+			precio = 3000;
+		}else{
+			document.write("  no tenemos ese sabor de helado , lo sentimos. ");
+			precio = 0;
+		}
+
+		document.write("el helado de "+ helado +" te cuesta " +precio + "  pesos");
+
+	</script> 
+</body>
+</html>

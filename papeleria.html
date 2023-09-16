@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>papeleria</title>
+</head>
+<body>
+    <script>
+        var libro = prompt("hoy te tenemosun descuento en los sigientes libros 1: viaje de la noche 20% 2:don quijote de la mancha 15% 3: relatos cortos 10% 4: cuentos 5% 5: los demas tienen 2% de descuento");
+		var precio = 0;
+        var descuento = 0;
+	
+		if(libro=="viaje de la noche"){
+			precio = 20000 -20000*0.20  ;
+            descuento = 20000*0.20
+			document.write("este libro tiene descuento del 20%   ")
+
+
+		}else if(libro == "don quijote de la mancha"){
+			precio = 35000 - 35000*0.15;
+            document.write("este libro tiene descuento del 15%   ")
+
+		}else if(libro == "relatos cortos" ){
+			precio = 25000 - 25000*0.10;
+            document.write("este libro tiene descuento del 10%   ")
+
+		}else  if(libro == "cuentos" ){
+			precio = 30000 - 30000*0.05;
+            document.write("este libro tiene descuento del 5%   ")
+		}else{
+			document.write("  todos los demas tienen un descuento del 2% ");
+			precio = 0;
+		}
+
+		document.write("el libro "+ libro +" te cuesta " + precio + "  pesos");
+    </script>
+</body>
+</html>
